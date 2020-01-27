@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GET-query-string | Example</title>
+	<script type="text/javascript" src="../dist/url.js"></script>
+</head>
+<body>
+<h1 align="center">Open console for this page</h1>
+<h5 align="center">github: <a target="" href="https://github.com/owlpro/GET-query-string">https://github.com/owlpro/GET-query-string</a></h5>
+<script type="text/javascript">
+	let url = new Url();
+	if(location.search == "") url.setSearch('?name=owl&family=pro')
+
+	console.log("_________________ Data _________________")
+	console.log(url.toArray())
+	console.log("________________________________________")
+
+
+</script>
+</body>
+</html>
