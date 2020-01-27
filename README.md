@@ -5,12 +5,13 @@ easy class for change GET method parameter value
 
 
 You can also:
-  - get all parammeters
-  - set a new parameter
-  - update a parameter with name (key)
-  - remove a parameter
-  - change Live Url GET parameter history without refresh and redirect
-  - remove dublicate parameters
+  - [get all parammeters](#get-all-parameters)
+  - [get a parameter](#get-a-parameter)
+  - [set a new parameter](#add-a-new-or-update-paramete)
+  - [update a parameter with name (key)](#update-a-parameter)
+  - [remove a parameter](#remove-a-parameter)
+  - [change Live Url GET parameter history without refresh and redirect](#change-url-parameters-with-out-reload-and-redirect)
+  - [remove dublicate parameters]()
 
 ### Usage:
   - include url.js in your page or project
